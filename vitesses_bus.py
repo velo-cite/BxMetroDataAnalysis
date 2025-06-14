@@ -106,7 +106,11 @@ def main(date_range_start: str,
 if __name__ == "__main__":
     date_range_start = "2025-06-13T17:25:00"
     date_range_end = "2025-06-13T17:35:00"
-    bounding_box = [5597637, 5598470,-65827, -64165] # lat_min, lat_max, lon_min, lon_max
-    # bus_line_id = (10,22)
-    bus_line_id = None
+    # bounding_box
+    # lat_min, lat_max, lon_min, lon_max
+    bounding_box = [5597637, 5598470,-65827, -64165]
+    # bus_line_id
+    # Utiliser la clé GID du jeu de donnée: https://opendata.bordeaux-metropole.fr/explore/dataset/sv_ligne_a/table/
+    bus_line_id = (104,)
+    #
     df_bus = main(date_range_start, date_range_end, bus_line_id, bounding_box, vmax=30)

@@ -9,6 +9,7 @@ uv sync
 - en utilisant `pip`
 ```
 git clone https://github.com/velo-cite/BxMetroDataAnalysis.git
+cd BxMetroDataAnalysis
 python -m venv .venv
 source .venv/bin/activate
 pip install .

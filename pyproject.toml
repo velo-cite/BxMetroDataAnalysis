@@ -1,0 +1,21 @@
+[project]
+name = "bxmetrodataanalysis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "contextily>=1.6.2",
+    "geopandas>=1.1.0",
+    "matplotlib>=3.10.3",
+    "numpy>=2.3.0",
+    "pandas>=2.3.0",
+    "python-dotenv>=1.1.0",
+    "shapely>=2.1.1",
+    "tqdm>=4.67.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipython>=9.3.0",
+]

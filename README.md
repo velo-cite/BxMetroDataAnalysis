@@ -1,4 +1,18 @@
-Installation des dépendances en utilisant `uv` (https://docs.astral.sh/uv/#installation)
+Installation des dépendances
+- (conseillé) en utilisant `uv` (https://docs.astral.sh/uv/#installation)
+
+```
+git clone https://github.com/velo-cite/BxMetroDataAnalysis.git
+uv sync
+```
+
+- en utilisant `pip`
+```
+git clone https://github.com/velo-cite/BxMetroDataAnalysis.git
+python -m venv .venv
+source .venv/bin/activate
+pip install .
+```
 
 ```
 git clone https://github.com/velo-cite/BxMetroDataAnalysis.git
